@@ -21,7 +21,7 @@ const Navbar = () => {
 
   return (
     <div className={color ? 'header header-bg' : 'header'}>
-      <Link to="/">
+      <Link to="/space_travel">
         <h1>GLX TRVL</h1>
       </Link>
       <ul className={click ? 'nav-menu active' : 'nav-menu'}>
